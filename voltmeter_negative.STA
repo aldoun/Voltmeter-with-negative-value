@@ -1,0 +1,68 @@
+
+ROM used:   1945/4096 (47%)
+            1945/4096 (47%) including unused fragments
+
+            1.4 Average locations per line
+            8.1 Average locations per statement
+
+RAM used:   34/368 (9%) at main() level
+            63/368 (17%) worst case
+
+Stack used: 4 worst case (4 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   84    54  23  voltmeter_negative.c
+  642     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16F88.h
+  423   125  52  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   32     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+   28     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+  188    60  25  lcd.h
+----- -----
+ 1397   239 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     30   2    5   129  4.6  strlen
+0     20   1    1   209  5.2  @delay_ms2
+0     16   1    1    93  2.9  enable
+0     16   1    1    93  2.9  rw
+0     16   1    1    93  2.9  rs
+ Inline         1   349  2.4  read_busy
+0     24   1    1   188  2.4  send_nibble
+0     57   3    4   190  3.5  send_byte
+0     45   2    0   346  1.9  lcd_initial
+0     18   1    1   119  3.0  lcd_putc
+0    693  36   24  2368  8.3  MAIN
+0     21   1    5             @MUL1616
+0     29   1    2             @ITOF
+0    202  10   14             @DIVFF
+0    117   6   13             @MULFF
+0    321  17   16             @ADDFF
+0     13   1    1             @SPRINTF
+ Inline         5             @FTOSD
+0     79   4   13             @DIV3232
+0    224  12   13             @PRINTF_L32D_739FPFPF
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               11
+    Statements              239
+    Comments                312
+    Volume (V)              6116
+    Difficulty (D)          39.9
+    Effort to implement (E) 244066
+    Time to implement (T)   3 hours, 46 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   13
+    Maintainability (MI)    134
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  1941  103  
+00800-00FFF     0  2048  
+
+
+

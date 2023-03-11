@@ -1,0 +1,4 @@
+>>> Warning 203 "voltmeter_negative.c" Line 29(1,1): Condition always TRUE
+      Memory usage:   ROM=47%      RAM=9% - 17%
+      0 Errors,  1 Warnings.
+Build Successful.
